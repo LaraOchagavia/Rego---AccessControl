@@ -1,0 +1,284 @@
+{
+  "cats": [
+    {
+      "name": "Elon Catsk",
+      "tenure": 5,
+      "breed": "Ashira",
+      "size": "average",
+      "diseases": [],
+      "profession": "Engineer",
+      "abilites": []
+    },
+    {
+      "name": "Catatouille",
+      "tenure": 10,
+      "breed": "Cornish Rex",
+      "size": "small",
+      "diseases": [
+        "Diabetes",
+        "Heart Problems"
+      ],
+      "profession": "Cook",
+      "abilites": []
+    },
+    {
+      "name": "Valentina Cateshkova",
+      "tenure": 3,
+      "breed": "Ashira",
+      "size": "large",
+      "diseases": [
+        "Cystitis"
+      ],
+      "profession": "Engineer",
+      "abilites": [
+        "Handy",
+        "Strong"
+      ]
+    },
+    {
+      "name": "Catgory",
+      "tenure": 4,
+      "breed": "Persian",
+      "size": "large",
+      "diseases": [],
+      "profession": "Police officer",
+      "abilites": [
+        "Smart"]
+    },
+    {
+      "name": "Neil Catstrong",
+      "tenure": 1,
+      "breed": "Cornish Rex",
+      "size": "large",
+      "diseases": [
+        "Fatty Liver",
+        "Cystitis"
+      ],
+      "profession": "Astronaut",
+      "abilites": []
+    },
+    {
+      "name": "Cat Beckett",
+      "tenure": 9,
+      "breed": "Persian",
+      "size": "small",
+      "diseases": [
+        "Heart Problems"
+      ],
+      "profession": "Police officer",
+      "abilites": [
+        "Fast"
+      ]
+    },
+    {
+      "name": "Gordon Catsay",
+      "tenure": 4,
+      "breed": "Cornish Rex",
+      "size": "small",
+      "diseases": [],
+      "profession": "Cook",
+      "abilites": [
+        "Fast"
+      ]
+    },
+    {
+      "name": "Kitty Ride",
+      "tenure": 8,
+      "breed": "Persian",
+      "size": "average",
+      "diseases": [
+        "Diabetes"
+      ],
+      "profession": "Astronaut",
+      "abilites": [
+        "Smart"
+      ]
+    },
+    {
+      "name": "Florence Catingale",
+      "tenure": 4,
+      "breed": "Ashira",
+      "size": "small",
+      "diseases": [
+        "Fatty Liver"
+      ],
+      "profession": "Nurse",
+      "abilites": [
+        "Handy"
+      ]
+    },
+    {
+      "name": "Thomas Catison",
+      "tenure": 5,
+      "breed": "Cornish Rex",
+      "size": "average",
+      "diseases": [
+        "Diabetes",
+        "Cystitis"
+      ],
+      "profession": "Engineer",
+      "abilites": [
+        "Fast",
+        "Smart"
+      ]
+    },
+    {
+      "name": "Docato de Santis",
+      "tenure": 1,
+      "breed": "Persian",
+      "size": "small",
+      "diseases": [
+        "Fatty Liver"
+      ],
+      "profession": "Cook",
+      "abilites": [
+        "Handy"
+      ]
+    },
+    {
+      "name": "Gato Dumas",
+      "tenure": 5,
+      "breed": "Ashira",
+      "size": "large",
+      "diseases": [
+        "Cystitis"
+      ],
+      "profession": "Cook",
+      "abilites": [
+        "Strong"
+      ]
+    },
+    {
+      "name": "Mishi Roberts",
+      "tenure": 7,
+      "breed": "Persian",
+      "size": "large",
+      "diseases": [
+        "Diabetes",
+        "Cystitis"
+      ],
+      "profession": "Police officer",
+      "abilites": []
+    },
+    {
+      "name": "Otto Catse",
+      "tenure": 5,
+      "breed": "Cornish Rex",
+      "size": "average",
+      "diseases": [
+        "Fatty Liver",
+        "Diabetes"
+      ],
+      "profession": "Engineer",
+      "abilites": []
+    },
+    {
+      "name": "Irena Catdler",
+      "tenure": 3,
+      "breed": "Persian",
+      "size": "average",
+      "diseases": [
+        "Cystitis"
+      ],
+      "profession": "Nurse",
+      "abilites": [
+        "Fast",
+        "Handy"
+      ]
+    }
+  ],
+
+  "food_attributes": [
+    {
+      "name": "Infinity",
+      "sizes": [
+        "small"
+      ],
+      "forbidden_for_diseases": [
+        "Fatty Liver",
+        "Diabetes"
+      ]
+    },
+    {
+      "name": "Cat Chow",
+      "sizes": [
+        "average"
+      ],
+      "forbidden_for_diseases": [
+        "Cystitis",
+        "Fatty Liver"
+      ]
+    },
+    {
+      "name": "Whiskas",
+      "sizes": [
+        "large",
+        "average"
+      ],
+      "forbidden_for_diseases": [
+        "Diabetes"
+      ]
+    },
+    {
+      "name": "Gati",
+      "sizes": [
+        "average",
+        "large"
+      ],
+      "forbidden_for_diseases": [
+        "Heart Problems"
+      ]
+    },
+    {
+      "name": "Royal Canin",
+      "sizes": [
+        "average",
+        "small",
+        "large"
+      ],
+      "forbidden_for_diseases": []
+    }
+  ],
+
+  "room_attributes": [
+    {
+      "room": "Kitchen",
+      "min_tenure": 6,
+      "allowed_professions": [
+        "Cook"
+      ],
+      "max_capacity": 5,
+      "current_capacity":5
+    },
+	{
+	  "room": "Control_room",
+      "min_tenure":5,
+      "allowed_professions":[
+        "Engineer",
+        "Astronaut"
+      ],
+      "max_capacity": 3
+    },
+    {
+      "room": "Nursing_room",
+      "min_tenure": 4,
+      "allowed_professions": [
+        "Nurse",
+        "Engineer",
+        "Police_officer",
+        "Astronaut",
+        "Cook"
+      ],
+      "max_capacity": 3
+    },
+    {
+      "room": "Security_Office",
+      "min_tenure": 3,
+      "allowed_professions": [
+        "Police officer"
+      ],
+      "max_capacity": 2
+    }
+
+  ]
+}
